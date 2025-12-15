@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './header-component.css',
 })
 export class HeaderComponent {
-  protected readonly title = 'Car System 1.0';
+  title: string = 'CAR SYSTEM 1.0';
 }
