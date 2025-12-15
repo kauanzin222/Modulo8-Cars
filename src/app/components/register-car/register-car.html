@@ -1,1 +1,31 @@
-<p>register-car works!</p>
+<form class="container mt-3 pb-3 ps-5 bg-body-tertiary rounded">
+    <div class="row pt-3 fs-5">{{title}}</div>
+    <!--Nome-->
+    <div class="row pt-3">
+        <div class="col-lg-2 pt-1">Nome:</div>
+        <div class="col-lg-10">
+            <input type="text" id="nameInput" class="form-control" placeholder="Ex: Uno">
+        </div>
+    </div>
+
+    <!--Montadora-->
+    <div class="row pt-3">
+        <div class="col-lg-2 pt-1">Montadora:</div>
+        <div class="col-lg-10">
+            <input type="text" id="brandInput" class="form-control" placeholder="Ex: Fiat">
+        </div>
+    </div>
+
+    <!--Preço & Ano-->
+    <div class="row pt-3">
+        <div class="col-lg-2 pt-1">Preço:</div>
+        <div class="col-lg-4">
+            <input type="number" id="brandInput" class="form-control" placeholder="Ex: R$ 4.500,00">
+        </div>
+        <div class="col-lg-2 pt-1">Ano:</div>
+        <div class="col-lg-4">
+            <input type="number" id="brandInput" class="form-control" placeholder="Ex: 2005">
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3 mb-3">Salvar</button>
+</form>

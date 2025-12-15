@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './register-car.css',
 })
 export class RegisterCar {
-
+  title: string = 'Cadastro de carros';
 }
