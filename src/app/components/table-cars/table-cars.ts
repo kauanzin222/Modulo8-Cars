@@ -34,7 +34,7 @@ export class TableCars {
   }
 
   removeCar(selectedCar: CarInterface) {
-    
+    this.cars = this.cars.filter(car => car != selectedCar);
   }
 
   updateCar(selectedCar: CarInterface) {
