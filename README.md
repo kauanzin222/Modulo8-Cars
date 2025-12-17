@@ -1,4 +1,4 @@
-# 🚗 Modulo8Cars
+# 🚗 Módulo 8 - Cars
 
 > Um projeto de gerenciamento de carros construído com **Angular** para conclusão parcial de um módulo educacional.
 
