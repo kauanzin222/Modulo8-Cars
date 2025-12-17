@@ -1,15 +1,17 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CarInterface } from '../../../CarInterface';
+import { RegisterCar } from '../register-car/register-car';
 
 @Component({
   selector: 'app-table-cars',
-  imports: [CommonModule],
+  imports: [CommonModule, RegisterCar],
   templateUrl: './table-cars.html',
   styleUrl: './table-cars.css',
 })
 export class TableCars {
-  title: string = 'Carros Cadastrados';
+  newCar: CarInterface = {} as CarInterface;
+  idCount: number = 2;
 
   cars: CarInterface[] = [
     {
@@ -20,4 +22,10 @@ export class TableCars {
       yearMade: 2016
     }
   ];
+
+  saveCar() {
+    this.newCar.id = this.idCount++;
+    this.cars.push(this.newCar);
+    this.newCar = {} as CarInterface; 
+  }
 }

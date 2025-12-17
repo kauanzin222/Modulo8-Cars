@@ -1,15 +1,22 @@
-import { Component } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CarInterface } from '../../../CarInterface';
 
 @Component({
   selector: 'app-register-car',
+  standalone: true,
   imports: [FormsModule],
   templateUrl: './register-car.html',
   styleUrl: './register-car.css',
 })
 export class RegisterCar {
-  title: string = 'Cadastrar Carro';
+  @Input()
+  car: CarInterface = {} as CarInterface;
 
-  car: CarInterface = {};
+  @Output()
+  saveEmitter = new EventEmitter();
+
+  save() {
+    this.saveEmitter.emit();
+  }
 }
