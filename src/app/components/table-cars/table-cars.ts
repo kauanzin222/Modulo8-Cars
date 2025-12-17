@@ -10,8 +10,9 @@ import { RegisterCar } from '../register-car/register-car';
   styleUrl: './table-cars.css',
 })
 export class TableCars {
-  newCar: CarInterface = {} as CarInterface;
+  car: CarInterface = {} as CarInterface;
   idCount: number = 2;
+  isUpdate: boolean = false;
 
   cars: CarInterface[] = [
     {
@@ -24,8 +25,20 @@ export class TableCars {
   ];
 
   saveCar() {
-    this.newCar.id = this.idCount++;
-    this.cars.push(this.newCar);
-    this.newCar = {} as CarInterface; 
+    if (!this.isUpdate) {
+      this.car.id = this.idCount++;
+      this.cars.push(this.car);
+    }
+
+    this.car = {} as CarInterface;
+  }
+
+  removeCar(selectedCar: CarInterface) {
+    
+  }
+
+  updateCar(selectedCar: CarInterface) {
+    this.car = selectedCar;
+    this.isUpdate = true;
   }
 }
