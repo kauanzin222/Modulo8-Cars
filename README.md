@@ -1,22 +1,22 @@
 # 🚗 Módulo 8 - Cars
 
-> Um projeto de gerenciamento de carros construído com **Angular** para conclusão parcial de um módulo educacional.
+> A car management project built with **Angular** for partial completion of an educational module.
 
 ---
 
-## 📌 Sobre o Projeto
+## 📌 About the Project
 
-Este é um projeto educacional desenvolvido para consolidar conhecimentos em **Angular**. Durante o desenvolvimento, foram explorados e implementados conceitos fundamentais do framework:
+This is an educational project developed to consolidate knowledge in **Angular**. During development, fundamental concepts of the framework were explored and implemented:
 
-- ✨ **Two-Way Data Binding** (`[(ngModel)]`) - Sincronização automática entre a view e o component
-- 🔄 **Diretivas Estruturais** (`*ngFor`, `*ngIf`) - Manipulação dinâmica do DOM
-- 📦 **Banana in the Box** `[()]` - Combinação de property binding e event binding
-- 🧩 **Componentes** - Arquitetura modular e reutilizável
-- 🎯 **Property Binding & Event Binding** - Comunicação entre template e lógica
-
+- ✨ **Two-Way Data Binding** (`[(ngModel)]`) - Automatic synchronization between the view and the component
+- 🔄 **Structural Directives** (`*ngFor`, `*ngIf`) - Dynamic DOM manipulation
+- 📦 **Banana in the Box** `[()]` - Combination of property binding and event binding
+- 🧩 **Components** - Modular and reusable architecture
+- 🎯 **Property Binding & Event Binding** - Communication between template and logic
+  
 ---
 
-## 🛠 Stack Tecnológico
+## 🛠 Stack 
 
 - **Angular CLI** v20.3.9
 - **TypeScript**
@@ -25,45 +25,46 @@ Este é um projeto educacional desenvolvido para consolidar conhecimentos em **A
 
 ---
 
-## 🚀 Como Executar
+## 🚀 How to Execute
 
 ### Development Server
 
-Para iniciar o servidor de desenvolvimento:
+To start the development server:
 
 ```bash
 npm start
 ```
 
-ou
+or
 
 ```bash
-ng serve
+ng serves
 ```
 
-Acesse a aplicação em `http://localhost:4200/`. A aplicação recarrega automaticamente quando há mudanças nos arquivos.
+Access the application at `http://localhost:4200/`. The application automatically reloads when there are changes to the files.
 
-### Build para Produção
+### Build for Production
 
 ```bash
 ng build
+
 ```
 
-Os artefatos compilados serão armazenados no diretório `dist/`.
+The compiled artifacts will be stored in the `dist/` directory.
 
 ---
 
-## 🧪 Testes
+## 🧪 Tests
 
-### Testes Unitários
+### Unit Tests
 
-Execute os testes com o [Karma](https://karma-runner.github.io):
+Run the tests with [Karma](https://karma-runner.github.io):
 
 ```bash
 npm test
 ```
 
-ou
+or
 
 ```bash
 ng test
@@ -71,12 +72,12 @@ ng test
 
 ---
 
-## 📚 Recursos Adicionais
+## 📚 Additional Resources
 
-- [Documentação Angular](https://angular.dev)
+- [Angular Documentation](https://angular.dev)
 - [Angular CLI Reference](https://angular.dev/tools/cli)
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/)
 
 ---
 
-**Desenvolvido como atividade educacional** 📚
+**Developed as an educational activity** 📚
