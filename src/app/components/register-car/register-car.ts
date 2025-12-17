@@ -7,8 +7,9 @@ import { CarInterface } from '../../../CarInterface';
   standalone: true,
   imports: [FormsModule],
   templateUrl: './register-car.html',
-  styleUrl: './register-car.css',
+  styleUrl: './register-car.css'
 })
+
 export class RegisterCar {
   @Input()
   car: CarInterface = {} as CarInterface;
