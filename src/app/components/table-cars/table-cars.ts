@@ -31,6 +31,7 @@ export class TableCars {
     }
 
     this.car = {} as CarInterface;
+    this.isUpdate = false;
   }
 
   removeCar(selectedCar: CarInterface) {
