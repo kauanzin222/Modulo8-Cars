@@ -19,4 +19,4 @@ Durante a construção deste módulo, explorei e implementei conceitos essenciai
 - **Framework**: Angular CLI (v20.3.9)
 - **Linguagem**: TypeScript
 - **Reatividade**: RxJS
-- **Estilização**: CSS3
+- **Estilização**: BootStrap
