@@ -1,83 +1,22 @@
-# 🚗 Módulo 8 - Cars
+# 🚗 Gerenciamento de Carros - Projeto Angular
 
-> A car management project built with **Angular** for partial completion of an educational module.
+![Status](https://img.shields.io/badge/Status-Finalizado-green)
 
----
+Este repositório contém o código-fonte de um projeto educacional desenvolvido para consolidar meus conhecimentos em **Angular**. Ele foi um passo fundamental para entender como o framework gerencia dados e a interface de forma reativa e modular.
 
-## 📌 About the Project
+## 🚀 Principais Aprendizados
 
-This is an educational project developed to consolidate knowledge in **Angular**. During development, fundamental concepts of the framework were explored and implemented:
+Durante a construção deste módulo, explorei e implementei conceitos essenciais do ecossistema Angular:
 
-- ✨ **Two-Way Data Binding** (`[(ngModel)]`) - Automatic synchronization between the view and the component
-- 🔄 **Structural Directives** (`*ngFor`, `*ngIf`) - Dynamic DOM manipulation
-- 📦 **Banana in the Box** `[()]` - Combination of property binding and event binding
-- 🧩 **Components** - Modular and reusable architecture
-- 🎯 **Property Binding & Event Binding** - Communication between template and logic
-  
----
+- 🔄 **Two-Way Data Binding**: Implementei a sincronização automática entre a view e o componente utilizando `[(ngModel)]`.
+- ✨ **Diretivas Estruturais**: Utilizei `*ngFor` e `*ngIf` para a manipulação dinâmica do DOM com base nos dados.
+- 🧩 **Arquitetura de Componentes**: Estruturei a aplicação de forma modular, criando componentes reutilizáveis e organizados.
+- 📦 **Banana in the Box**: Dominei a combinação de *property binding* e *event binding* para comunicação eficiente dentro do template.
+- 🎯 **Comunicação de Dados**: Pratiquei a troca de informações entre a lógica do TypeScript e o template HTML.
 
-## 🛠 Stack 
+## 🛠️ Tecnologias Utilizadas
 
-- **Angular CLI** v20.3.9
-- **TypeScript**
-- **RxJS**
-- **CSS3**
-
----
-
-## 🚀 How to Execute
-
-### Development Server
-
-To start the development server:
-
-```bash
-npm start
-```
-
-or
-
-```bash
-ng serves
-```
-
-Access the application at `http://localhost:4200/`. The application automatically reloads when there are changes to the files.
-
-### Build for Production
-
-```bash
-ng build
-
-```
-
-The compiled artifacts will be stored in the `dist/` directory.
-
----
-
-## 🧪 Tests
-
-### Unit Tests
-
-Run the tests with [Karma](https://karma-runner.github.io):
-
-```bash
-npm test
-```
-
-or
-
-```bash
-ng test
-```
-
----
-
-## 📚 Additional Resources
-
-- [Angular Documentation](https://angular.dev)
-- [Angular CLI Reference](https://angular.dev/tools/cli)
-- [TypeScript Handbook](https://www.typescriptlang.org/docs/)
-
----
-
-**Developed as an educational activity** 📚
+- **Framework**: Angular CLI (v20.3.9)
+- **Linguagem**: TypeScript
+- **Reatividade**: RxJS
+- **Estilização**: CSS3
